@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMAGA</title>
+    <link rel="stylesheet" href="./css/skibidi.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+
+<body id="body" onload="myFunction()";>
+    <header>
+        <div>
+            <img src="./src/capybara.png" width="120px" alt="Logo">
+            <nav>
+                <a href="#skills" id="linkG">Skills</a>
+                <a href="https://www.instagram.com/gabo_chiguire/"id="linkA" target="_blank">Contacto</a>
+                <a href="https://www.youtube.com/powerbazinga/" id="linkB" target="_blank">Educacion</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <audio src="./audio/Hotlanta - Track Tribe.mp3" autoplay loop></audio>
+        <section id="datos">
+            <div id="video">
+                <video id="myVideo" src="./video/programador.mp4" width="100%" height="100%" loop autoplay></video>
+            </div>
+            <div id="divDatos">
+                <h1 id="nombre" style="text-align: center; margin-top: 50px;">Gabriel Santiago Mendoza Marquina</h1>
+                <h3 id="subNombre" style="text-align: center; font-weight: 400; color: gray;">Jugador de Souls Profesional y Procrastinador Licenciado</h3>
+                <div style="text-align: center; margin: 50px 0;">
+                    <a class="btnHeader registerBtn" href="https://youtu.be/J5JKTey_JJc?si=QO8EqopDN50tKr9Z"
+                        style="text-decoration: none;" target="_blank">Ver mi perfil Linkedin</a>
+                </div>
+                <div style="text-align: center;">
+                    <img src="./src/gabo.png" alt="imagenPersonal" width="490px"
+                        height="560px">
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1 style="text-align: center;">Mis Skills</h1>
+            <div style="padding: 0 5%; height: 500px;">
+                <article class="articleSkills">Runs de todo tipo en Dark Souls I: Level 1, Solo Puños, Hechicero, Solo Escudos</article>
+                <article class="articleSkills"> Eficacia en dejar las cosas a medio hacer (no terminó la mitad de lo anteriormente mencionado)</article>
+                <article class="articleSkills">Especial habilidad en Dark Souls I</article>
+                <article class="articleSkills">Desempeño alto en jugar cualquier tipo de Souls</article>
+                <article class="articleSkills">Experticia en Migajear</article>
+                <article class="articleSkills">Cualquier mariquera que involucre un Souls</article>
+            </div>
+        </section>
+        <section id="cread">
+            <h2 class="titulosCread" id="h2Cread">Completa tu Souls con el mejor</h2>
+            <h5 class="titulosCread" id="h5Cread">Prueba a contratar a Gabo, el mejor Souls Player de su casa, para que puedas lucir de tus runs con las mujeres (no me hago cargo si las espantas)</h5>
+            <article id="articleCread1" class="articleCread">
+                <ul id="ulCread">
+                    <li>
+                        <p
+                            style="display: inline-block; margin: 0 10px; width: 10%; height: 63px; background-image: url('./img/contact.svg'); background-size: 50% 50%; background-repeat: no-repeat; background-position: center center;">
+
+                        </p>
+                        <p style="display: inline-block; margin: 0 10px; width: 80%;">
+                            Soy <span class="negrita">excelente en trabajos a última hora</span> , ya sea de manualidades, académicos o de diseño,
+                            además de ser profesional en los Souls.
+                        </p>
+                    </li>
+                    <li><span class="material-symbols-outlined">
+                            phone_iphone
+                        </span>
+                        <span class="negrita">Procrastino, duermo, juego y publico</span> tus runs de los Souls donde y cuando quieras.
+                    </li>
+                    <li><span class="material-symbols-outlined">
+                            group_add
+                        </span>
+                        <span class="negrita">Gameplay en tiempo real</span> con personas presencial y remoto para
+                        empresas y particulares
+                    </li>
+                    <li><span class="material-symbols-outlined">
+                            contact_support
+                        </span>
+                        <span class="negrita">Me mantengo en contacto permanente</span>, ya que siempre estoy pegado al perol llamado teléfono, para agilizar la comunicación y
+                        resolver sugerencias de manera simultánea.
+                    </li>
+                </ul>
+            </article>
+            <article id="articleCread2" class="articleCread">
+                <img src="https://i1.sndcdn.com/artworks-1lae660uaVjF0UQr-zDmt5g-t500x500.jpg" alt="">
+            </article>
+        </section>
+    </main>
+    <video src="./src/Lemon 🍋 [Berserk MEME].mp4" controls></video>
+    <footer style="width: 100%; display: flex; justify-content: center; height: 10vh; align-items: center;">
+        <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+    </footer>
+
+    <!-- Script para el video -->
+    <script>
+        document.getElementById("body").addEventListener("scroll", () => console.log("scroll"));
+        var video = document.getElementById("myVideo");
+
+        function myFunction() {
+                video.play();
+
+        }
+
+    </script>
+    <!-- Script de ionicons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>

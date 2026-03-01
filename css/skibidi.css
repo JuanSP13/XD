@@ -1,0 +1,129 @@
+/* Importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+/* Estilos globales */
+*{
+    font-family: 'Segoe UI';
+}
+body{
+    margin: 0;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+}
+a{
+    text-decoration: none;
+}
+.negrita{
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'simpsonLetter';
+    src:url('../fonts/SimpsonfontDEMO.otf');
+}
+/* Header */
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 3px lightgray;
+    padding: 0 1%;
+}
+header > div:first-child{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+header > div:last-child{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnHeader{
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+#datos{
+    height: 100vh;
+    position: relative;
+}
+#video{
+    height: 100%;
+    width: 100%;
+}
+#divDatos{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(211, 211, 211, 0.41);
+}
+#nombre{
+    font-family: 'Sixtyfour', sans-serif;
+}
+#subNombre{
+    font-family: 'Honk', system-ui;
+    font-size: 1.5em;
+}
+/*Skills*/
+#skills{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+.articleSkills{
+    padding: 50px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: 150px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+    margin: 0 50px;
+    float: left;
+    background-color: white;
+    font-family: comic-sans-ms, cursive, sans-serif;
+}
+#linkA, #linkB, #linkG{
+    border: 1px solid lightgray;    
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 5px;
+    padding: 0% 10px;
+}
+/* Seccion Cread */
+#h2Cread{
+    font-size: 2em;
+    font-family: 'simpsonLetter';
+    color: #ff0000;
+}
+#h5Cread{
+    font-weight: 600;
+    font-size: 1em;
+    color: yellow;
+}
+.titulosCread{
+    text-align: center;
+    padding: 0 30%;
+}
+.articleCread{
+    width: 48%;
+    display: inline-block;
+    height: 330px;
+    float: left;
+}
+#articleCread1{
+    padding: 1.5em 3em;
+    box-sizing: border-box;
+}
+#articleCread2{
+    text-align: center;
+}
+#ulCread{
+    list-style: none;
+}
